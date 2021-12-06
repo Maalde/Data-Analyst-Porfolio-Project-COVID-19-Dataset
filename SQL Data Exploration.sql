@@ -1,4 +1,4 @@
---Data that is going to be used from covid_deths table
+--Data that is going to be used from covid_deaths table(csv file is attached to this portfolio)
 
 SELECT [location],[date],total_cases,new_cases,total_deaths,population_density
 FROM PortfoLioProject.dbo.covid_deaths
@@ -63,7 +63,7 @@ WHERE continent IS NOT NULL
 ORDER by 1,2
 
 ---------------------------------------------------------------------
------Use the COVID vaccination table
+-----Use the COVID vaccination table(csv file is attached to this portfolio)
 SELECT *
 FROM PortfoLioProject.dbo.covid_vaccinations
 
